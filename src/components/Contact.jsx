@@ -30,7 +30,7 @@ const Contact = () => {
         "service_0osavyx",
         "template_mtx8w0e",
         {
-          form_name: form.name,
+          from_name: form.name,
           to_name: "Arnav Marda",
           from_email: form.email,
           to_email: "arnavmarda@gmail.com",
