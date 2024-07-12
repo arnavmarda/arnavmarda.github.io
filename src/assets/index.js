@@ -40,6 +40,7 @@ import cvg from "./cvg.png";
 import tex from "./tex.png";
 import pdf_chat from "./pdf_chat.png";
 import twelfthman from "./twelfthman.jpg";
+import sse from "./sse.png";
 
 export {
   backend,
@@ -80,4 +81,5 @@ export {
   tex,
   pdf_chat,
   twelfthman,
+  sse
 };
