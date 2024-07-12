@@ -34,6 +34,7 @@ import {
   tex,
   pdf_chat,
   twelfthman,
+  sse
 } from "../assets";
 
 export const navLinks = [
@@ -194,33 +195,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "twitter-news-bot",
@@ -244,19 +218,19 @@ const projects = [
     source_code_link: "https://github.com/arnavmarda/Automata-Latex",
   },
   {
-    name: "PDF-Chat",
-    description:
-      "An AI powered, custom-tailored chat bot trained on a database of PDFs provided by the user.",
-    image: pdf_chat,
-    source_code_link: "https://github.com/arnavmarda/pdf-chat",
-  },
-  {
     name: "Twelfth Man",
     description:
       "Twelfth Man is a web application that aims to act as a hosting platform for cricket games. We provide features to create player profiles, teams, matches, tournaments, as well as score games.",
     image: twelfthman,
     source_code_link: "https://github.com/arnavmarda/twelfth-man",
   },
+  {
+    name: "Semantic Search Engine",
+    description:
+      "A semantic search engine using embeddings to provide a smarter way to search on the web. The search engine currently supports Google, Bing, Github and Stack Exchange search.",
+    image: sse,
+    source_code_link: "https://github.com/arnavmarda/semantic-search-engine",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
