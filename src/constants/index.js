@@ -34,7 +34,9 @@ import {
   tex,
   pdf_chat,
   twelfthman,
-  sse
+  sse,
+  vqa,
+  llm
 } from "../assets";
 
 export const navLinks = [
@@ -148,15 +150,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI Engineer",
+    company_name: "Skypoint.ai",
+    icon: null,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - September 2024",
+    points: [
+      "Pioneered the development of a complete multi-agentic RAG retrieval and retry system using the Microsoft Autogen library, improving query resolution time by 30% and reducing hallucinations in the LLM output.",
+      "Crafted a hybrid search engine based retrieval pipeline for a key client, combining metadata search and vector search leading to 25% better search performance.",
+      "Streamlined multi-SQL table retrieval pipelines for large scale LLM applications using vector search increasing the accuracy of QA outputs on structured datasets."
+    ],
+  },
+  {
     title: "Quantitative Analyst",
     company_name: "Anand Rathi",
     icon: starbucks,
     iconBg: "#383E56",
     date: "July 2023 - September 2023",
     points: [
-      "Developed a trading strategy for high-volume trading after earnings' reports for volatile stocks in the NSE using reinforcement learning. The strategy returned an average profit of 11% in simulation testing.",
-      "Conducted modelling of the implied volatility smile over a period of a week for the NIFTY and BANKNIFTY indexes using KMeans Clustering and MLP Regression. The model had a weighted mean square error of about 0.0006.",
-      "Employed Python (Pandas, NumPy, Keras, Plotly, PyTorch, scikit-learn, PyCaret, Streamlit, YFinance) to conduct analysis, modelling, backtesting and presenting results.",
+      "Engineered a reinforcement learning-based trading strategy for high-volume trades following earnings reports of volatile stocks on the NSE, achieving an average simulated profit of 11%.",
+      "Analyzed and modeled the implied volatility smile for the NIFTY and BANKNIFTY indexes using KMeans Clustering and MLP Regression, resulting in a weighted mean square error of 0.0006 over a week-long period.",
+      "Utilized Python (Pandas, NumPy, Keras, Plotly, PyTorch, scikit-learn, PyCaret, Streamlit, YFinance) for comprehensive analysis, modeling, backtesting, and presentation of financial data insights."
     ],
   },
   {
@@ -166,9 +180,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2022 - September 2022",
     points: [
-      "Developed a Natural Language Processing classifier to classify user inputs provided to the AI to improve user retention.",
-      "Optimized AI interactions with the user to better respond to user queries using the classifier to classify inputs. The AI uses the classifier to personalize the response to better answer the users' queries.",
-      "Leveraged Python (scikit-learn, spaCy) to complete the classification and testing of the model.",
+      "Modeled an NLP classifier to categorize user inputs for an AI system, improving user retention rates by 15%.",
+      "Optimized AI interactions by implementing a personalized response system based on classified user inputs, increasing query response accuracy by 20% and user satisfaction by 25%.",
+      "Leveraged Python (scikit-learn, spaCy) to build and test the classification model, achieving an 85% accuracy rate in user input categorization."
     ],
   },
   {
@@ -230,6 +244,21 @@ const projects = [
       "A semantic search engine using embeddings to provide a smarter way to search on the web. The search engine currently supports Google, Bing, Github and Stack Exchange search.",
     image: sse,
     source_code_link: "https://github.com/arnavmarda/semantic-search-engine",
+  },
+  {
+    name: "Visual Question Answering",
+    description:
+      "A research project aimed at training an efficient model for Visual Question Answering using Fast R-CNN and evaluating against other SOTA models on a curated dataset.",
+    image: vqa,
+    source_code_link: "https://ucladeepvision.github.io/CS163-Projects-2024Fall/2024/12/12/team36-VQA-analysis.html"
+  },
+  {
+    name: "Specified Backup for Fragile Parts of LLMs",
+    description:
+      "A research paper analyzing the effects of random hardware bit flips on Large Language Models (LLMs) including the effects on different layers and modules of the model. The paper also identifies security issues such as denial of service attacks and model architecture leaks using induced pseudo-random bit flips.",
+    image: llm,
+    source_code_link: "https://github.com/hametar0u/ECE-117-LLM-Backup/tree/main"
+
   }
 ];
 

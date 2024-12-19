@@ -15,10 +15,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import c from "./tech/c.svg";
-import cpp from "./tech/cpp.svg";
-import java from "./tech/java.svg";
-import python from "./tech/python.svg";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 import numpy from "./tech/numpy.svg";
 import pandas from "./tech/pandas.svg";
 import pytorch from "./tech/pytorch.svg";
@@ -41,6 +41,8 @@ import tex from "./tex.png";
 import pdf_chat from "./pdf_chat.png";
 import twelfthman from "./twelfthman.jpg";
 import sse from "./sse.png";
+import vqa from "./vqa.png";
+import llm from "./llm.png";
 
 export {
   backend,
@@ -81,5 +83,7 @@ export {
   tex,
   pdf_chat,
   twelfthman,
-  sse
+  sse,
+  vqa,
+  llm
 };

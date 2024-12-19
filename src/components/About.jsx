@@ -46,11 +46,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a 3rd year student at the University of California, Los Angeles
+        I am a 4th year student at the University of California, Los Angeles
         studying Computer Science with a minor in Mathematics. I am passionate
         about software engineering especially in the fields of Quantum
         Computation, Machine Learning and Artificial Intelligence. I am
-        currently looking for an internship for Summer 2024.
+        currently looking for a full-time position starting June 2025.
       </motion.p>
     </>
   );
